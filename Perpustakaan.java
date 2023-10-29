@@ -23,8 +23,8 @@ public class Perpustakaan {
         daftarBuku.add(new Buku("PBO dengan Java,", "Abdul Kadir,", "Erlangga,", 2008, 1));
         daftarBuku.add(new Buku("Dasar Pemrograman Java,", "Indrijani,", "Erlangga,", 2020, 1));
         daftarBuku.add(new Buku("Si Doel,", "Indrijani,", "Balai Pustaka,", 1932, 3));
-		daftarBuku.add(new Buku ("Rangga,", "Rangga,", "Balwi,", 2024, 4));
-		daftarBuku.add(new Buku ("Judul,", "Pengarang,", "Penerbit,", 2000, 2));
+	daftarBuku.add(new Buku ("A-Z Psikologi : Berbagai kumpulan topik Psikologi,", "Zainul Anwar,", "Andi Offset,", 2012, 4));
+	daftarBuku.add(new Buku ("Akuntansi Pengantar 1,", "Supardi,", "Gava Media,", 2009, 2));
         System.out.println("======================================================================================");
         System.out.println("Daftar Buku yang Tersedia");
         System.out.println("======================================================================================");
@@ -57,7 +57,7 @@ public class Perpustakaan {
                 bukuBaru++;
             }
         }
-		System.out.println("======================================================================================");
+	System.out.println("======================================================================================");
         System.out.println("Jumlah buku yang tersedia: " + daftarBuku.size());
         System.out.println("Buku Teknik: " + bukuTeknik);
         System.out.println("Buku Manajemen: " + bukuManajemen);
